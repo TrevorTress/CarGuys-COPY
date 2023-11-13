@@ -25,12 +25,15 @@ const Header: React.FC<X> = ({ className }) => {
 };
 
 export default styled(Header)`
-	/* background: pink; */
-	width: 100vw;
+	background: #fff;
+	position: sticky;
+	top: 0;
+	width: 100%;
 	height: 14vh;
 	display: flex;
 	justify-content: space-between;
 	padding: 0.75rem 2.75rem;
+	z-index: 10;
 
 	& right {
 		width: 55vw;

@@ -46,5 +46,12 @@ export default styled(HeroBlock)`
 		height: 5vh;
 		font-weight: 700;
 		font-size: 1.2rem;
+		transition: all ease-in-out 0.25s;
+
+		&:hover {
+			background: #3e434f !important;
+			border: none !important;
+			color: #fff;
+		}
 	}
 `;

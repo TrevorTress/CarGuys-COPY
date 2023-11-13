@@ -24,15 +24,17 @@ const Hero: React.FC<X> = ({ className }) => {
 };
 
 export default styled(Hero)`
-	height: 73vh;
-	width: 100vw;
+	position: relative;
+	height: 72vh;
+	width: 100%;
+	background-size: cover !important;
 
 	& mask {
 		display: block;
 		position: absolute;
 		background: #061c2dad;
 		width: 100%;
-		height: 73vh;
+		height: 72vh;
 	}
 
 	& .content {
@@ -48,10 +50,14 @@ export default styled(Hero)`
 		& h1 {
 			font-weight: 700;
 			color: #fff;
+			margin: 1rem;
+			font-size: 3.5rem;
 		}
 		& h2 {
 			color: #fff;
 			font-weight: 200;
+			margin: 1rem;
+			font-size: 3.5rem;
 		}
 
 		& .hero-blocks {
@@ -61,6 +67,7 @@ export default styled(Hero)`
 				& button {
 					background: #000;
 					color: #fff;
+					border: solid #fff 1px;
 				}
 			}
 		}
