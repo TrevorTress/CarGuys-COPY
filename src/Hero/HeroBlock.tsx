@@ -8,7 +8,7 @@ interface P extends X {
 const HeroBlock: React.FC<P> = ({ className, heading, description, button }) => {
 	return (
 		<div className={className}>
-			<p>I Need To</p>
+			<h2>I Need To</h2>
 			<h3>{heading}</h3>
 			<h4>{description}</h4>
 			<button>{button}</button>
@@ -27,7 +27,11 @@ export default styled(HeroBlock)`
 	border: solid #fff 1px;
 	color: #fff;
 	margin: 1rem;
-	padding: 1rem;
+	padding: 0.5rem 1rem;
+
+	& h2 {
+		font-size: 2rem !important;
+	}
 
 	& h3 {
 		font-weight: 700;
@@ -41,9 +45,9 @@ export default styled(HeroBlock)`
 
 	& button {
 		position: absolute;
-		bottom: -2vh;
+		bottom: -3vh;
 		width: 80%;
-		height: 5vh;
+		height: 6vh;
 		font-weight: 700;
 		font-size: 1.2rem;
 		transition: all ease-in-out 0.25s;

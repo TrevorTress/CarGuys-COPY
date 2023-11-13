@@ -4,6 +4,7 @@ import Header from './Header';
 import Hero from './Hero';
 import GlobalStyles from './style';
 import Application from './Application';
+import OurClients from './OurClients';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<>
@@ -11,5 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 		<Header />
 		<Hero />
 		<Application />
+		<OurClients />
 	</>
 );
