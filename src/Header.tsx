@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import img from './assets/logo.webp';
 
 import { FaUser } from 'react-icons/fa';
@@ -11,8 +12,8 @@ const Header: React.FC<X> = ({ className }) => {
 					<img src={img} />
 				</left>
 				<right>
-					<span>Home</span>
-					<span>Find a Job</span>
+					<Link to="/">Home</Link>
+					<Link to="/find-a-job">Find a Job</Link>
 					<span>Our Services</span>
 					<button className="dealer-portal-btn">Dealer Portal Login</button>
 					<span>
@@ -55,5 +56,11 @@ export default styled(Header)`
 		&:hover {
 			background: #3e434f;
 		}
+	}
+
+	& a {
+		text-decoration: none;
+		color: #000;
+		margin: 0;
 	}
 `;

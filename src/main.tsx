@@ -1,17 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import Header from './Header';
-import Hero from './Hero';
+import Footer from './Footer';
+import Router from './Router';
 import GlobalStyles from './style';
-import Application from './Application';
-import OurClients from './OurClients';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-	<>
+	<BrowserRouter>
 		<GlobalStyles />
 		<Header />
-		<Hero />
-		<Application />
-		<OurClients />
-	</>
+		<Router />
+		<Footer />
+	</BrowserRouter>
 );
