@@ -7,6 +7,7 @@ import BG3 from '../assets/JOB-BG3.webp';
 import BG4 from '../assets/JOB-BG4.webp';
 import BG5 from '../assets/JOB-BG5.webp';
 import NeedResume from './NeedResume';
+import ExclusiveOpportunities from './ExclusiveOpportunities';
 
 const FindJob: React.FC<X> = ({ className }) => {
 	return (
@@ -18,6 +19,7 @@ const FindJob: React.FC<X> = ({ className }) => {
 			<JobBlock title="Automotive Job Seekers" description="CarGuys Inc. Was founded by Adam J. Hayford & Austin Hayford to help professionals advance their career. Whether you are currently in the automotive industry or looking for a new career. Our team of recruiting experts is dedicated to helping you. Click below to get started today!" button="Start My Application" img={BG5} full />
 
 			<NeedResume />
+			<ExclusiveOpportunities />
 		</div>
 	);
 };
