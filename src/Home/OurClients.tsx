@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-import Group1 from './assets/GROUP1.webp';
-import TonyT from './assets/TONYT.webp';
-import MikeTerry from './assets/MIKE-TERRY.webp';
-import Carite from './assets/CARITE.webp';
-import WinnersCircle from './assets/WINNERS-CIRCLE.webp';
-import Perkins from './assets/PERKINS-MOTORS.webp';
+import Group1 from '../assets/GROUP1.webp';
+import TonyT from '../assets/TONYT.webp';
+import MikeTerry from '../assets/MIKE-TERRY.webp';
+import Carite from '../assets/CARITE.webp';
+import WinnersCircle from '../assets/WINNERS-CIRCLE.webp';
+import Perkins from '../assets/PERKINS-MOTORS.webp';
 
 const OurClients: React.FC<X> = ({ className }) => {
 	return (

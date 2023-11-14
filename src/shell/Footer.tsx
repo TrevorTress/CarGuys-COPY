@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from './assets/logo.webp';
+import img from '../assets/logo.webp';
 import { Link } from 'react-router-dom';
 
 import { FaYoutube, FaFacebook } from 'react-icons/fa';

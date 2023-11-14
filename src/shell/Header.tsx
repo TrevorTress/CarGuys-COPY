@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import img from './assets/logo.webp';
+import img from '../assets/logo.webp';
 
 import { FaUser } from 'react-icons/fa';
 

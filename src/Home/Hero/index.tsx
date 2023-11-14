@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import bg from '../assets/HOME-BG.webp';
+import bg from '../../assets/HOME-BG.webp';
 import HeroBlock from './HeroBlock';
 
 const Hero: React.FC<X> = ({ className }) => {
